@@ -1,5 +1,3 @@
 # dmwcw
 
-mage punchi rosa male 
-mamai nube viyapath bambara 
-nuba heenenvath nopenena kumara
+This is the final version of this project :)

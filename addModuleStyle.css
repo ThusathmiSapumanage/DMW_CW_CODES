@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header 
+{
+    background: linear-gradient(to right, #000000, #3533cd);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo img
+{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 
+{
+    font-size: 18px;
+    color: #fff;
+}
+
+nav ul 
+{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li 
+{
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a 
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover 
+{
+    border-bottom: 2px solid #ffffff;
+}
+
+nav ul li ul 
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li:hover ul 
+{
+    display: block;
+}
+
+nav ul li ul li 
+{
+    text-align: center;
+}
+
+nav ul li ul li a 
+{
+    display: block;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+nav ul li ul li a:hover
+{
+    background-color: #f0f0f0;
+    color: black;
+}
+.content
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.fill
+{
+    padding: 40px;
+    border-radius: 8px;
+    width: 40%;
+    background: white;
+    color:#000000;
+    text-align: left;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.module-form label
+{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left; 
+}
+
+.module-form input
+{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #000000;
+}
+
+.module-form button
+{
+    background-image: linear-gradient(to right, #dd72a6,#9d208f );
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.module-form button:hover
+{
+    background-image: linear-gradient(to right, #a359a0, #6141ac);
+}
+
+.footer
+{
+    background-image: linear-gradient(to right, #000000, #3533cd);
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a
+{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover
+{
+    text-decoration: underline;
+}
+
+.footer img
+{
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
